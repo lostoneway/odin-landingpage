@@ -1,0 +1,28 @@
+body { 
+font-family: 'Roboto', 'Times New Roman', Times, sans-serif;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+margin: 0;
+}
+
+.container {
+    display: flex; 
+    flex-direction: column;
+}
+
+header, footer { 
+    background-color: #1F2937;
+    color: white; 
+
+}
+ul {
+padding: 0;
+margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white; 
+}
+
