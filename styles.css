@@ -6,23 +6,31 @@ flex-direction: column;
 margin: 0;
 }
 
-.container {
-    display: flex; 
-    flex-direction: column;
-}
-
-header, footer { 
+.header {
     background-color: #1F2937;
-    color: white; 
+    display: flex; 
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+}
 
-}
-ul {
-padding: 0;
-margin: 0;
-}
+.header .header-links {
+    display: flex; 
+    font-size: 18px;
+    color: #E5E7EB; 
+    margin-left: auto;
+    padding-right: 16px;
+    padding-left: 0;
+    gap: 14px; 
+  }
 
 a {
+    color: #E5E7EB; 
     text-decoration: none;
-    color: white; 
 }
 
+
+img {
+    width: 300px;
+    height: auto;
+}
