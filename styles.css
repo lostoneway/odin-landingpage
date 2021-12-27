@@ -105,6 +105,7 @@ body {
 
 .quote, .sig{
     background-color: #e5e7eb;
+    color: #1f2937;
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
@@ -121,3 +122,35 @@ body {
     font-weight: 700;
     font-style: normal;
 }
+
+.last {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #3882F6;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    padding: 10px; 
+    margin: 0 auto;
+  }
+.header {
+    color: #e5e7eb;
+    margin-bottom: 0;
+
+}
+.closing {
+    color: #e5e7eb;
+    font-size: 14px; 
+    margin-top: 0;
+    border: 2px solid red;
+}
+
+footer {
+    color: #e5e7eb;
+    background-color: #1f2937;
+    text-align: center;
+    padding: 16px;
+}
+
