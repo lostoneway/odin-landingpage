@@ -68,12 +68,12 @@ body {
   }
 
   .button {
-      border: none; 
       background-color: #3882f6;
       color: white; 
       padding: 8px 16px; 
       border-radius: 8px;  
       cursor: pointer;
+      border-width: 0px 0px;
   }
 
   .second {
@@ -129,11 +129,14 @@ body {
     justify-content: center;
     align-content: center;
     background-color: #3882F6;
-    width: 480px;
+    width: 500px;
     border-radius: 10px;
     box-shadow: 2px 4px 16px rgba(0,0,0,.2);
     padding: 10px; 
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px; 
   }
 .header {
     color: #e5e7eb;
@@ -144,9 +147,13 @@ body {
     color: #e5e7eb;
     font-size: 14px; 
     margin-top: 0;
-    border: 2px solid red;
 }
 
+.button-end{
+    border: 1px solid #e5e7eb; 
+    background-color: #3882f6;
+    color: white; 
+}
 footer {
     color: #e5e7eb;
     background-color: #1f2937;
