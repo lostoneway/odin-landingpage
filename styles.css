@@ -125,11 +125,9 @@ body {
 
 .last {
     display: flex; 
-    flex-direction: column;
     justify-content: center;
     align-content: center;
     background-color: #3882F6;
-    width: 500px;
     border-radius: 10px;
     box-shadow: 2px 4px 16px rgba(0,0,0,.2);
     padding: 10px; 
@@ -149,10 +147,28 @@ body {
     margin-top: 0;
 }
 
+.modal {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px; 
+}
+
+.left { 
+display:flex;
+flex-direction: column; 
+padding-left: 10px; 
+padding-right: 40px; 
+}
+
 .button-end{
     border: 1px solid #e5e7eb; 
+    border-radius: 8px;  
+    padding: 6px 15px;
+    cursor: pointer;
     background-color: #3882f6;
     color: white; 
+    text-align: center;
 }
 footer {
     color: #e5e7eb;
@@ -161,3 +177,13 @@ footer {
     padding: 16px;
 }
 
+button:hover {
+    background-color: lime;
+}
+button:active{
+    background-color: magenta;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
