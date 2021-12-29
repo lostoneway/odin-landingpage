@@ -3,6 +3,8 @@ The Odin Project- Landing Page
 
 I'll be creating a web page from a design provided by The Odin Project. The purpose of this exercise is to use all the new tools I've learned from HTML to CSS, to include flexbox. 
 
+Images: Fantasy Football trade image from Unsplash credit to spxChrome. Icons used for Cream of the Crop, from ESPN Fantasy Stock Logo packs. 
+
 Self Check: 
 - Does the web page look similar to the desired outcome? 
 - Did you create the HTML first then the CSS? 
